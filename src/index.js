@@ -9,6 +9,8 @@ import './styles.scss';
 const LoadingComponent = () => <h3>please wait...</h3>;
 
 // home component
+//import HomeComponent from './home.component';
+
 const AsyncHomeComponent = loadable( {
     loader: () => import( './home.component' ),
     loading: LoadingComponent

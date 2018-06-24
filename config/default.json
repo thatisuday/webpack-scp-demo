@@ -1,6 +1,6 @@
 {
     "uglify": false,
     "sourcemap": false,
-    "open": false,
+    "open": true,
     "publicPath": "/"
 }
